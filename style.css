@@ -1,0 +1,10 @@
+h1{font-family: 'Roboto'; font-weight: 900;}
+h6{font-weight: 400;}
+
+.btn-custom {
+    border-radius: 2px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    padding: 0.6rem 2.5rem;
+    font-family: "Roboto";
+}

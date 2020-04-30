@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@400;900&display=swap');
+
+body,html {
+    width: 100%;
+    height: 100%;
+}
+
+.section-default {
+    width: 100%;
+}
+.section-full {
+    min-height: 100%;
+}
+
+header {
+    position: absolute;
+    padding: 12px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.267);
+    z-index: 2;
+}
+.section-intro:after{
+    position:absolute;
+    z-index:-1;
+    width:100%;
+    height: 100%;
+    display:block;
+    left:0;
+    top:0;
+    content:"";
+    background:rgba(44,45,51,.9);
+    background:linear-gradient(rgba(44,45,51,0.9),rgba(44,45,51,0.9));
+    background:-moz-linear-gradient(rgba(44,45,51,0.9),rgba(44,45,51,0.9));
+    background:-webkit-linear-gradient(rgba(44,45,51,0.9),rgba(44,45,51,0.9));
+}
+header>div {
+    max-width: 1000px;
+    margin: auto;
+}
+header .navbar-collapse {
+    justify-content: flex-end;
+}
+.section-intro {
+    background-image: url('./images/files.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 170px 20px;
+    color: white;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    min-height: 600px;
+    font-family: 'Open Sans';
+    line-height: 1.4;
+    letter-spacing: 1px;
+}
+.section-intro>div {
+    max-width: 900px;
+    margin: auto;
+}
