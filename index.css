@@ -5,19 +5,37 @@ body,html {
     height: 100%;
 }
 
-.section-default {
-    width: 100%;
-}
-.section-full {
-    min-height: 100%;
-}
-
 header {
     position: absolute;
     padding: 12px;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.267);
     z-index: 2;
+}
+header>div {
+    max-width: 1000px;
+    margin: auto;
+}
+header .navbar-collapse {
+    justify-content: flex-end;
+}
+
+.section-intro {
+    background-image: url('./images/files.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 180px 20px;
+    color: white;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    min-height: 600px;
+    font-family: 'Open Sans';
+    line-height: 1.4;
+    letter-spacing: 1px;
 }
 .section-intro:after{
     position:absolute;
@@ -33,31 +51,37 @@ header {
     background:-moz-linear-gradient(rgba(44,45,51,0.9),rgba(44,45,51,0.9));
     background:-webkit-linear-gradient(rgba(44,45,51,0.9),rgba(44,45,51,0.9));
 }
-header>div {
-    max-width: 1000px;
-    margin: auto;
-}
-header .navbar-collapse {
-    justify-content: flex-end;
-}
-.section-intro {
-    background-image: url('./images/files.jpg');
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    padding: 170px 20px;
-    color: white;
-    position: relative;
-    z-index: 1;
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
-    min-height: 600px;
-    font-family: 'Open Sans';
-    line-height: 1.4;
-    letter-spacing: 1px;
-}
 .section-intro>div {
     max-width: 900px;
     margin: auto;
+}
+
+
+.section-floatingbox {
+    display: flex;
+    align-items: center;
+    padding: 25px;
+}
+@media(max-width: 1000px){
+    .section-floatingbox{
+        padding: 10px;
+    }
+}
+.floating-box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: -85px;
+    padding: 100px 0px;
+    text-align: center;
+    box-shadow: 0 16px 24px 2px rgba(0,0,0,.14), 0 6px 30px 5px rgba(0,0,0,.12), 0 8px 10px -5px rgba(0,0,0,.2);
+    border-radius: 5px;
+    z-index: 3;
+    background-color: white;
+}
+@media(max-width: 600px){
+    .floating-box{
+        padding: 50px 5px;
+    }
 }
