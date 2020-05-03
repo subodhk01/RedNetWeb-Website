@@ -116,7 +116,8 @@ header .navbar-collapse {
 }
 .section-features {
     color: white !important;
-    background: linear-gradient(45deg, rgb(44, 42, 42), grey, rgb(44, 43, 43));
+    background: linear-gradient(45deg, rgb(47, 122, 100), rgb(60, 151, 144), rgb(13, 212, 146));
+    box-shadow: 0px 0px 5px 2px silver;
 }
 .features {
     padding: 20px 0px;
