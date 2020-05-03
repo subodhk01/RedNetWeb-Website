@@ -87,4 +87,8 @@ h1,h2,h3,h4,h5,h6 {
     max-width: 600px;
     margin: auto;
 }
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+}
 
