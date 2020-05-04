@@ -122,6 +122,16 @@ header .navbar-collapse {
 .features {
     padding: 20px 0px;
 }
+.feature-container {
+    margin-bottom: 20px;
+}
+.feature img {
+    background-color: white;
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+    margin-bottom: 5px;
+}
 .section-features h3 {color: white;}
 .section-footer {
     padding: 100px 10px;
