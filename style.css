@@ -101,4 +101,25 @@ h1,h2,h3,h4,h5,h6 {
     height: 100%;
     width: 100%;
 }
+.footer-heading {
+    font-family: 'Poppins';
+    margin-bottom: 30px;
+}
+.footer-item{
+    color: rgb(135, 137, 138);
+    padding: 10px;
+    border-bottom: 1px solid rgb(109, 107, 107);
+    transition: 0.2s;
+    margin-bottom: 10px;
+}
+.footer-half {
+    padding: 20px 40px;
+}
+.footer-content a:hover {
+    text-decoration: none;
+}
+.footer-item:hover {
+    color: rgb(206, 204, 204);
+    border-bottom: 1px solid white;
+}
 
