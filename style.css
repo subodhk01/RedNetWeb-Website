@@ -15,6 +15,12 @@ h1,h2,h3,h4,h5,h6 {
 }
 .navbar a {
     color: black !important;
+    transition: 0.3s;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+.navbar a:hover {
+    color: red !important;
 }
 .navbar img {
     height: 120px;
@@ -45,7 +51,7 @@ h1,h2,h3,h4,h5,h6 {
 .divider {
     background-color: #e42020;
     height: 1px;
-    width: 80%;
+    width: 60%;
     margin: auto;
     overflow: hidden;
 }
@@ -97,6 +103,46 @@ h1,h2,h3,h4,h5,h6 {
         padding: 0px;
     }
 }
+.plan {
+    font-family: 'Lato' ;
+    background: #7b4397;
+    background: linear-gradient(60deg, #ef5350, #d32f2f);
+    color: white;
+    border-radius: 6px;
+    transition: 0.3s;
+    box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+.plan:hover {
+    transform: scale(1.01);
+    box-shadow: 0 16px 38px -5px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+@media (max-width: 760px){
+    .plan{
+        font-size: 0.9rem;
+    }
+}
+
+.plan-div {
+    padding: 11px 5px;
+    margin: 0px 50px;
+    border-bottom: 1px solid rgb(227, 227, 228);
+}
+.plan-head{
+    padding: 20px 5px;
+    font-family: 'Roboto';
+}
+.plan-price {
+    font-size: 2.7rem;
+}
+.plan-button {
+    padding: 15px 5px 25px 5px;
+}
+.plan-last {
+    border: none;
+}
 .half-container {
     padding: 30px 20px;
 }
@@ -146,5 +192,17 @@ h1,h2,h3,h4,h5,h6 {
 .footer-item:hover {
     color: rgb(206, 204, 204);
     border-bottom: 1px solid white;
+}
+.btn-white {
+    background-color: white;
+    color: rgb(18, 78, 156);
+    border-radius: 100px;
+    padding: 10px 20px;
+    font-size: 0.8rem;
+    border: 1px solid transparent;
+    transition: 0.3s;
+}
+.btn-white:hover {
+    border: 1px solid rgb(114, 27, 25);
 }
 

@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@400;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 body,html {
     width: 100%;
@@ -118,8 +119,13 @@ header .navbar-collapse {
     margin: auto;
     margin-top: 40px;
 }
+.section-pricing {
+    padding: 90px 20px 30px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
 .section-about {
-    padding: 50px 20px;
+    padding: 40px 20px 70px 20px;
     margin: auto;
     max-width: 1000px;
 }
@@ -159,4 +165,8 @@ header .navbar-collapse {
     background-color: rgb(27, 27, 27);
     color: rgb(116, 114, 114);
     font-size: 0.8rem;
+}
+.form-control:focus {
+    border: 1px solid  rgb(194, 97, 97);
+    box-shadow: 0 0 0 0.2rem rgba(255, 38, 0, 0.25);
 }
