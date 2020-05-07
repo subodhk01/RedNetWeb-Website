@@ -9,10 +9,10 @@ body,html {
 
 header {
     position: absolute;
-    padding: 12px;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.267);
+    background-color: rgba(255, 255, 255, 0.596);
     z-index: 2;
+    box-shadow: 0px 0px 10px 2px rgb(27, 27, 27);
 }
 header>div {
     max-width: 1000px;
@@ -27,7 +27,7 @@ header .navbar-collapse {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    padding: 180px 20px;
+    padding: 260px 20px 210px 20px;
     color: white;
     position: relative;
     z-index: 1;
@@ -38,6 +38,14 @@ header .navbar-collapse {
     font-family: 'Open Sans';
     line-height: 1.4;
     letter-spacing: 1px;
+}
+@media(max-width: 450px){
+    .section-intro {
+        padding: 160px 20px 150px 20px;
+    }
+    .section-intro h1 {
+        font-size: 2.4rem;
+    }
 }
 .section-intro:after{
     position:absolute;
@@ -111,13 +119,13 @@ header .navbar-collapse {
     margin-top: 40px;
 }
 .section-about {
-    padding: 50px 0px;
+    padding: 50px 20px;
     margin: auto;
     max-width: 1000px;
 }
 .section-features {
     color: white !important;
-    background: linear-gradient(45deg, rgb(47, 122, 100), rgb(60, 151, 144), rgb(13, 212, 146));
+    background: linear-gradient(45deg, rgb(233, 49, 36), rgb(240, 72, 50), rgb(245, 35, 35));
     box-shadow: 0px 0px 5px 2px silver;
 }
 .features {
@@ -146,9 +154,9 @@ header .navbar-collapse {
 }
 .bottom-strip {
     font-style: "Open Sans";
-    padding: 5px;
+    padding: 20px;
     text-align: center;
     background-color: rgb(27, 27, 27);
-    color: rgb(78, 76, 76);
+    color: rgb(116, 114, 114);
     font-size: 0.8rem;
 }
