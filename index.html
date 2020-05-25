@@ -7,10 +7,10 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link rel="icon" href="favicon.io" type="">
         <!-- <meta name="theme-color" content="black" /> -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" id="bootstrap-css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-        <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="index.css">
     </head>
@@ -172,7 +172,160 @@
                         </div>
                         <div class="pricing-container">
                             <div class="row">
-                                <div class="col-xs-12 col-sm-12 col-md-4 plan-container">
+
+                                <div class="col-md-12">
+                                    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading" role="tab" id="headingOne">
+                                                <h4 class="panel-title">
+                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                        BASIC 
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                                                <div class="panel-body">
+                                                    <div>
+                                                        <table class="table table-hover table-striped pricing-table">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <th>Guaranteed RAM</th><th>1 GB</th>
+                                                                </tr>
+                                                                <tr>
+                                                                    <th>Users Recommended</th><th>Single User</th>
+                                                                </tr>
+                                                                <tr>
+                                                                    <th>CPU/Cores</th><th>1 Core</th>
+                                                                </tr>
+                                                                <tr>
+                                                                    <th>Operating System</th><th>Windows 2012/16</th>
+                                                                </tr>
+                                                                <tr>
+                                                                    <th>Tally Support</th><th>24x7, 365Days</th>
+                                                                </tr>
+                                                                <tr>
+                                                                    <th>Server Management</th><th>Fully Managed & Support</th>
+                                                                </tr>
+                                                                <tr>
+                                                                    <th>Uptime</th><th>99.95% Guaranteed</th>
+                                                                </tr>
+                                                                <tr>
+                                                                    <th>Backup</th><th>Daily -Twice</th>
+                                                                </tr>
+                                                                <tr>
+                                                                    <th>Setup</th><th>Free</th>
+                                                                </tr>
+                                                                <tr>
+                                                                    <th>SSD Hard Disk</th><th>5 GB</th>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading" role="tab" id="headingTwo">
+                                                <h4 class="panel-title">
+                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                        STANDARD
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                                <div class="panel-body">
+                                                    <div>
+                                                        <table class="table table-hover table-striped pricing-table">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <th>Guaranteed RAM</th><th>1 GB</th>
+                                                                </tr>
+                                                                <tr>
+                                                                    <th>Users Recommended</th><th>Single User</th>
+                                                                </tr>
+                                                                <tr>
+                                                                    <th>CPU/Cores</th><th>1 Core</th>
+                                                                </tr>
+                                                                <tr>
+                                                                    <th>Operating System</th><th>Windows 2012/16</th>
+                                                                </tr>
+                                                                <tr>
+                                                                    <th>Tally Support</th><th>24x7, 365Days</th>
+                                                                </tr>
+                                                                <tr>
+                                                                    <th>Server Management</th><th>Fully Managed & Support</th>
+                                                                </tr>
+                                                                <tr>
+                                                                    <th>Uptime</th><th>99.95% Guaranteed</th>
+                                                                </tr>
+                                                                <tr>
+                                                                    <th>Backup</th><th>Daily -Twice</th>
+                                                                </tr>
+                                                                <tr>
+                                                                    <th>Setup</th><th>Free</th>
+                                                                </tr>
+                                                                <tr>
+                                                                    <th>SSD Hard Disk</th><th>5 GB</th>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading" role="tab" id="headingThree">
+                                                <h4 class="panel-title">
+                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                        PREMIUM
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                                                <div class="panel-body">
+                                                    <div>
+                                                        <table class="table table-hover table-striped pricing-table">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <th>Guaranteed RAM</th><th>1 GB</th>
+                                                                </tr>
+                                                                <tr>
+                                                                    <th>Users Recommended</th><th>Single User</th>
+                                                                </tr>
+                                                                <tr>
+                                                                    <th>CPU/Cores</th><th>1 Core</th>
+                                                                </tr>
+                                                                <tr>
+                                                                    <th>Operating System</th><th>Windows 2012/16</th>
+                                                                </tr>
+                                                                <tr>
+                                                                    <th>Tally Support</th><th>24x7, 365Days</th>
+                                                                </tr>
+                                                                <tr>
+                                                                    <th>Server Management</th><th>Fully Managed & Support</th>
+                                                                </tr>
+                                                                <tr>
+                                                                    <th>Uptime</th><th>99.95% Guaranteed</th>
+                                                                </tr>
+                                                                <tr>
+                                                                    <th>Backup</th><th>Daily -Twice</th>
+                                                                </tr>
+                                                                <tr>
+                                                                    <th>Setup</th><th>Free</th>
+                                                                </tr>
+                                                                <tr>
+                                                                    <th>SSD Hard Disk</th><th>5 GB</th>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>                                        
+                                    </div>
+                                </div><!--- END COL -->
+
+                                <!-- <div class="col-xs-12 col-sm-12 col-md-4 plan-container">
                                     <div class="plan">
                                         <div class="plan-head"><strong>BASIC</strong></div>
                                         <div class="plan-price">Rs 500</div>
@@ -222,7 +375,7 @@
                                         <div class="plan-div plan-last">200 GB</div>
                                         <div class="plan-button"><a href="" class="btn btn-white">BUY NOW</a></div>
                                     </div>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </section>
@@ -448,5 +601,24 @@
                     Company Name - 2020 &copy;
             </div>
         </main>
+        <script>
+            (function($) {
+                'use strict';
+                
+                jQuery(document).on('ready', function(){
+                
+                        $('a.page-scroll').on('click', function(e){
+                            var anchor = $(this);
+                            $('html, body').stop().animate({
+                                scrollTop: $(anchor.attr('href')).offset().top - 50
+                            }, 100);
+                            e.preventDefault();
+                        });		
+            
+                }); 	
+            
+                            
+            })(jQuery);
+        </script>
     </body>
 </html>
